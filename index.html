@@ -9,9 +9,22 @@
     <h1>🌍 Welcome to MeoPlanet 🌍</h1>
 
     <p>MeoPlanetへようこそ！</p>
-<audio controls>
+    
+<p>♪ BGM</p>
+
+<button onclick="document.getElementById('bgm').play()">
+    【▶ 再生】
+</button>
+
+<button onclick="document.getElementById('bgm').pause()">
+    【■ 停止】
+</button>
+
+<p>※音が流れます♪</p>
+
+<audio id="bgm" loop>
     <source src="tam-y06.mp3" type="audio/mpeg">
-    このブラウザでは音楽を再生できません。
 </audio>
+    
 </body>
 </html>
