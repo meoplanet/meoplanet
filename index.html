@@ -12,21 +12,15 @@
     
 <p>♪ BGM</p>
 
-<div class="bgm-box">
-    <p>╔════════════╗</p>
-    <p>♪ BGM</p>
-    <p>╚════════════╝</p>
+<button onclick="document.getElementById('bgm').play()">
+    【▶ 再生】
+</button>
 
-    <button onclick="document.getElementById('bgm').play()">
-        【▶ 再生】
-    </button>
+<button onclick="document.getElementById('bgm').pause()">
+    【■ 停止】
+</button>
 
-    <button onclick="document.getElementById('bgm').pause()">
-        【■ 停止】
-    </button>
-
-    <p>♪ MeoPlanet Theme ♪</p>
-</div>
+<p>※音が流れます♪</p>
 
 <audio id="bgm" loop>
     <source src="tam-y06.mp3" type="audio/mpeg">
